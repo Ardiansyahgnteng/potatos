@@ -1,0 +1,16 @@
+UniSwapV2 FlashSwap Testing
+
+forge test --contracts ./src/test/Uniswapv2_flashswap.sol -vv
+DODO FlashLoan Testing
+
+forge test --contracts ./src/test/DODO_flashloan.sol -vv
+AAVE FlashLoan Testing
+
+forge test --contracts ./src/test/Aave_flashloan.sol -vv
+Balancer FlashLoan Testing
+
+forge test --contracts ./src/test/Balancer_flashloan.sol -vv
+Pancakeswap FlashSwap Testing
+
+forge test --contracts ./src/test/Pancakeswap_flashswap.sol -vv
+Biswap FlashSwap Testing
